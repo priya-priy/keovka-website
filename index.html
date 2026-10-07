@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KEOVKA — A New Take on Indulgence | Premium Food Snacking & Gifting</title>
+  <meta name="description" content="KEOVKA is a premium packaged food experience thoughtfully crafted for modern snacking, sharing, and gifting. Handcrafted in small batches with choice nuts, figs, and spices.">
+  <meta name="keywords" content="Keovka, luxury snacks, premium dry fruit mix, Indian gifting, festive snacking, gourmet food">
+  <meta property="og:title" content="KEOVKA — A New Take on Indulgence">
+  <meta property="og:description" content="A thoughtfully crafted food experience made for modern snacking, sharing, and gifting.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/jar front.webp">
+  
+  <!-- Favicon / Diya Brand Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23B8955A'><path d='M12 2c.5 1.5 2 3.5 2 5.5a2 2 0 1 1-4 0c0-2 1.5-4 2-5.5z'/><path d='M3 13c0 4.4 4 8 9 8s9-3.6 9-8c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2z'/></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span>Complimentary Express Shipping on all orders above ₹799 across India</span>
+      <span class="announcement-sep">•</span>
+      <span class="announcement-badge">Festive Batch No. 04 Now Open</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Keovka Home">
+        <svg class="brand-diya-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2c.5 1.5 1.8 3.5 1.8 5.2a1.8 1.8 0 1 1-3.6 0c0-1.7 1.3-3.7 1.8-5.2z" fill="#B8955A" stroke="#B8955A"/>
+          <path d="M4 13.5C4 17.5 7.6 20.8 12 20.8s8-3.3 8-7.3c0-.8-.7-1.5-1.5-1.5H5.5C4.7 12 4 12.7 4 13.5z" />
+          <path d="M2.5 13.5h19" />
+        </svg>
+        <span class="brand-name">KEOVKA</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#product" class="nav-link">Product</a></li>
+          <li><a href="#why-keovka" class="nav-link">Why Keovka</a></li>
+          <li><a href="#experience" class="nav-link">The Experience</a></li>
+          <li><a href="#ingredients" class="nav-link">Ingredients</a></li>
+          <li><a href="#our-story" class="nav-link">Our Story</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Cart Trigger Button -->
+        <button type="button" class="cart-trigger-btn" id="cartTriggerBtn" aria-label="Open Shopping Bag">
+          <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-count-badge" id="cartCountBadge">0</span>
+        </button>
+
+        <!-- Shop Now CTA Button -->
+        <a href="#product" class="btn btn-shop-header">Shop Now</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+      <div class="mobile-nav-inner">
+        <ul class="mobile-nav-links">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#product" class="mobile-nav-link">Product</a></li>
+          <li><a href="#why-keovka" class="mobile-nav-link">Why Keovka</a></li>
+          <li><a href="#experience" class="mobile-nav-link">The Experience</a></li>
+          <li><a href="#ingredients" class="mobile-nav-link">Ingredients</a></li>
+          <li><a href="#our-story" class="mobile-nav-link">Our Story</a></li>
+          <li><a href="#reviews" class="mobile-nav-link">Reviews</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <a href="#product" class="btn btn-primary btn-block">Shop Keovka</a>
+          <button type="button" class="btn btn-secondary btn-block mt-3" id="openGiftingModalMobile">Festive & Corporate Gifting</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container container">
+        <!-- Left Side: Editorial Typography & CTAs -->
+        <div class="hero-content">
+          <div class="label-pill">
+            <span class="pill-dot"></span>
+            <span class="pill-text">THE KEOVKA EXPERIENCE</span>
+          </div>
+
+          <h1 class="hero-headline">A New Take on<br><em>Indulgence.</em></h1>
+
+          <p class="hero-subtext">
+            A thoughtfully crafted food experience made for modern snacking, sharing and gifting.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#product" class="btn btn-primary hero-btn-shop">
+              <span>Shop Keovka</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#our-story" class="btn btn-secondary hero-btn-discover">Discover More</a>
+          </div>
+
+          <div class="hero-pillars">
+            <span class="pillar-item">Thoughtfully Crafted</span>
+            <span class="pillar-bullet">•</span>
+            <span class="pillar-item">Premium Ingredients</span>
+            <span class="pillar-bullet">•</span>
+            <span class="pillar-item">Made for Moments</span>
+          </div>
+        </div>
+
+        <!-- Right Side: Product Showcase (Zero Margin Presentation) -->
+        <div class="hero-visual">
+          <div class="hero-image-stage">
+            <div class="hero-ambient-glow"></div>
+            <!-- Zero margin product imagery -->
+            <div class="hero-image-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/jar front.webp" type="image/webp">
+                <img src="assets/jar front.png" alt="Keovka Traditional Indian Dry Fruit Mix Jar - Handcrafted Luxury Snacking" class="hero-product-img zero-margin" loading="eager" width="1195" height="896">
+              </picture>
+            </div>
+            
+            <!-- Subtle floating badge -->
+            <div class="hero-floating-badge">
+              <div class="badge-diya-icon">
+                <svg viewBox="0 0 24 24" fill="#B8955A" width="18" height="18">
+                  <path d="M12 2c.5 1.5 1.8 3.5 1.8 5.2a1.8 1.8 0 1 1-3.6 0c0-1.7 1.3-3.7 1.8-5.2z"/>
+                  <path d="M4 13.5C4 17.5 7.6 20.8 12 20.8s8-3.3 8-7.3c0-.8-.7-1.5-1.5-1.5H5.5C4.7 12 4 12.7 4 13.5z"/>
+                </svg>
+              </div>
+              <div class="badge-text-group">
+                <span class="badge-title">Pure & Handcrafted</span>
+                <span class="badge-sub">Signature Small Batch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP / BRAND CREDENTIALS -->
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <div class="trust-meta">
+            <h4>Choice Grade Harvest</h4>
+            <p>Select whole nuts, dried figs & slow roasting</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <div class="trust-meta">
+            <h4>Glass Jar Freshness</h4>
+            <p>Airtight gold seal locks aroma & crunch</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon-box veg-icon-box">
+            <span class="veg-badge" title="100% Vegetarian">
+              <span class="veg-dot"></span>
+            </span>
+          </div>
+          <div class="trust-meta">
+            <h4>100% Vegetarian</h4>
+            <p>Pure wholesome Indian recipe, zero preservatives</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="trust-meta">
+            <h4>Handcrafted in India</h4>
+            <p>Dispatched express directly to your doorstep</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section class="product-section" id="product">
+      <div class="container product-showcase-container">
+        
+        <!-- Left Side: Interactive Multi-Angle Gallery (Zero Margin) -->
+        <div class="product-gallery-col">
+          <div class="product-main-view-card zero-margin">
+            <!-- Active Image Stage -->
+            <div class="product-image-viewport zero-margin" id="productImageViewport">
+              <picture id="mainProductPicture">
+                <source id="mainWebpSource" srcset="assets/jar front.webp" type="image/webp">
+                <img id="mainProductImg" src="assets/jar front.png" alt="Keovka Jar Front View - Signature Dry Fruit Mix" class="product-featured-img zero-margin" width="1195" height="896">
+              </picture>
+              
+              <!-- Subtle View Tag -->
+              <span class="view-tag-indicator" id="currentViewIndicator">Front Label View</span>
+            </div>
+
+            <!-- Angle Selector Thumbnails -->
+            <div class="gallery-angle-switcher">
+              <button type="button" class="angle-btn active" data-img-webp="assets/jar front.webp" data-img-src="assets/jar front.png" data-label="Front Label View" aria-label="Front jar view">
+                <img src="assets/jar front.webp" alt="Front angle thumbnail" class="angle-thumb-img zero-margin">
+                <span class="angle-label">Front</span>
+              </button>
+
+              <button type="button" class="angle-btn" data-img-webp="assets/jar right.webp" data-img-src="assets/jar right.png" data-label="Nutritional Facts & Origin" aria-label="Nutrition jar view">
+                <img src="assets/jar right.webp" alt="Nutrition angle thumbnail" class="angle-thumb-img zero-margin">
+                <span class="angle-label">Nutrition</span>
+              </button>
+
+              <button type="button" class="angle-btn" data-img-webp="assets/jar left.webp" data-img-src="assets/jar left.png" data-label="Customer Feedback & Social" aria-label="Reviews jar view">
+                <img src="assets/jar left.webp" alt="Customer feedback angle thumbnail" class="angle-thumb-img zero-margin">
+                <span class="angle-label">Feedback</span>
+              </button>
+
+              <button type="button" class="angle-btn" data-img-webp="assets/jar_isolated_zero_margin.webp" data-img-src="assets/jar_isolated_zero_margin.png" data-label="Pure Glass Jar Studio Shot" aria-label="Studio isolated jar view">
+                <img src="assets/jar_isolated_zero_margin.webp" alt="Isolated jar angle thumbnail" class="angle-thumb-img zero-margin">
+                <span class="angle-label">Studio Jar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Product Details & Purchase Form -->
+        <div class="product-details-col">
+          <div class="product-details-inner">
+            <div class="product-pretitle">
+              <span class="pretitle-tag">DISCOVER KEOVKA</span>
+              <div class="star-rating-pill">
+                <div class="stars-row">
+                  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <span class="review-count">4.9 (128 reviews)</span>
+              </div>
+            </div>
+
+            <h2 class="product-title">Something Worth Savoring.</h2>
+
+            <p class="product-description">
+              Keovka is crafted to bring together delicious flavour, satisfying texture and a premium presentation — creating something that feels special whether you're enjoying it yourself or sharing it with others.
+            </p>
+
+            <!-- Highlights Checklist -->
+            <ul class="product-highlights-list">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>A rich blend of California almonds, dried figs, pistachios & cashews</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Balanced with crisp popped lotus seeds for an airy, satisfying bite</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Finished with subtle aromatic Tellicherry black pepper & warm spices</span>
+              </li>
+            </ul>
+
+            <!-- Interactive Size Selector -->
+            <div class="product-size-section">
+              <div class="size-header">
+                <span class="size-label-title">Choose Your Size:</span>
+                <span class="size-serving-note" id="sizeServingNote">Ideal for 12–15 generous servings</span>
+              </div>
+
+              <div class="size-options-grid" role="radiogroup" aria-label="Select Product Size">
+                <!-- 250g Option -->
+                <button type="button" class="size-card-btn" data-size="250g" data-price="499" data-original-price="550" data-serving="Ideal for 5–7 personal indulgence moments" role="radio" aria-checked="false">
+                  <div class="size-card-header">
+                    <span class="size-weight">250g</span>
+                    <span class="size-card-tag">Everyday Pack</span>
+                  </div>
+                  <div class="size-card-price">
+                    <span class="price-val">₹499</span>
+                    <span class="price-mrp">₹550</span>
+                  </div>
+                </button>
+
+                <!-- 500g Option (Default Active) -->
+                <button type="button" class="size-card-btn active" data-size="500g" data-price="899" data-original-price="1050" data-serving="Ideal for 12–15 generous sharing & gifting moments" role="radio" aria-checked="true">
+                  <div class="size-card-badge">Most Popular • Best Value</div>
+                  <div class="size-card-header">
+                    <span class="size-weight">500g</span>
+                    <span class="size-card-tag">Signature Glass Jar</span>
+                  </div>
+                  <div class="size-card-price">
+                    <span class="price-val">₹899</span>
+                    <span class="price-mrp">₹1,050</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Dynamic Pricing & Stock Notice -->
+            <div class="price-summary-row">
+              <div class="current-price-group">
+                <span class="currency-symbol">₹</span>
+                <span class="dynamic-price-number" id="currentPriceDisplay">899</span>
+                <span class="mrp-strikethrough" id="currentMrpDisplay">₹1,050</span>
+                <span class="discount-badge" id="discountPercentBadge">Save 14%</span>
+              </div>
+              <div class="tax-shipping-caption">
+                Inclusive of all taxes • <strong>Free Delivery on 500g</strong>
+              </div>
+            </div>
+
+            <!-- Purchase Controls: Quantity Selector + Action Buttons -->
+            <div class="purchase-actions-container">
+              <!-- Stepper Quantity Selector -->
+              <div class="quantity-selector-box">
+                <button type="button" class="qty-btn" id="qtyDecrementBtn" aria-label="Decrease quantity">−</button>
+                <input type="number" id="productQuantityInput" class="qty-input" value="1" min="1" max="10" readonly aria-label="Selected Quantity">
+                <button type="button" class="qty-btn" id="qtyIncrementBtn" aria-label="Increase quantity">+</button>
+              </div>
+
+              <!-- Primary Add to Cart -->
+              <button type="button" class="btn btn-primary btn-add-cart" id="addToCartBtn">
+                <svg class="cart-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Add to Cart</span>
+              </button>
+
+              <!-- Secondary Buy Now -->
+              <button type="button" class="btn btn-buy-now" id="buyNowBtn">
+                <span>Buy Now</span>
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Guarantee Accordion / Badges -->
+            <div class="product-perks-row">
+              <div class="perk-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>100% Quality Sealed</span>
+              </div>
+              <div class="perk-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                <span>Dispatches in 24 Hours</span>
+              </div>
+              <div class="perk-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>Festive Ready Gifting</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY KEOVKA SECTION -->
+    <section class="why-keovka-section" id="why-keovka">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">A HIGHER STANDARD</span>
+          <h2 class="section-title">Why Keovka?</h2>
+          <p class="section-subtitle">
+            Created for people who appreciate flavour, quality and beautiful experiences.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Card 01 -->
+          <div class="why-card">
+            <div class="why-card-top">
+              <span class="why-card-number">01</span>
+              <div class="why-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="why-card-title">Thoughtfully Crafted</h3>
+            <p class="why-card-text">
+              Carefully selected ingredients and attention to every detail — from artisanal roasting temperatures to the tactile weight of the glass jar.
+            </p>
+          </div>
+
+          <!-- Card 02 -->
+          <div class="why-card">
+            <div class="why-card-top">
+              <span class="why-card-number">02</span>
+              <div class="why-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 21a9 9 0 0 1-9-9c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9zm0-4a5 5 0 0 0 5-5c0-2.76-2.24-5-5-5s-5 2.24-5 5a5 5 0 0 0 5 5z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="why-card-title">Made for Taste</h3>
+            <p class="why-card-text">
+              A satisfying combination of flavour and texture. Plump chewy figs meet crisp slow-roasted nuts, elevated by gentle notes of black pepper.
+            </p>
+          </div>
+
+          <!-- Card 03 -->
+          <div class="why-card">
+            <div class="why-card-top">
+              <span class="why-card-number">03</span>
+              <div class="why-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="why-card-title">Perfect for Sharing</h3>
+            <p class="why-card-text">
+              Created for moments with family, friends and loved ones. An inviting centerpiece that elevates tea sessions, intimate evenings and festive tables.
+            </p>
+          </div>
+
+          <!-- Card 04 -->
+          <div class="why-card">
+            <div class="why-card-top">
+              <span class="why-card-number">04</span>
+              <div class="why-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 12 20 22 4 22 4 12"></polyline>
+                  <rect x="2" y="7" width="20" height="5"></rect>
+                  <line x1="12" y1="22" x2="12" y2="7"></line>
+                  <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+                  <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="why-card-title">Made for Gifting</h3>
+            <p class="why-card-text">
+              A refined choice for celebrations, festivals and thoughtful occasions. Encased in an elegant presentation jar designed to be given with pride.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE EXPERIENCE SECTION (Zero Margin Photography) -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">OCCASIONS & RITUALS</span>
+          <h2 class="section-title">Made for More Than Just a Snack.</h2>
+          <p class="section-subtitle">
+            Keovka is designed to fit naturally into the moments that matter — from quiet evenings to celebrations shared with the people you love.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <!-- Card 1: Everyday -->
+          <article class="exp-card">
+            <div class="exp-image-frame zero-margin">
+              <picture>
+                <source srcset="assets/exp_everyday.webp" type="image/webp">
+                <img src="assets/exp_everyday.jpg" alt="Everyday Indulgence with Keovka - morning chai and desk moment" class="exp-img zero-margin" loading="lazy" width="800" height="600">
+              </picture>
+              <div class="exp-badge-pill">Daily Ritual</div>
+            </div>
+            <div class="exp-card-body">
+              <h3 class="exp-card-title">Everyday</h3>
+              <p class="exp-card-text">
+                A little indulgence for your everyday moments. Paired with morning chai or savored during an afternoon pause.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2: Sharing -->
+          <article class="exp-card">
+            <div class="exp-image-frame zero-margin">
+              <picture>
+                <source srcset="assets/exp_sharing.webp" type="image/webp">
+                <img src="assets/exp_sharing.jpg" alt="Sharing Moments - hands reaching for Keovka on gathering table" class="exp-img zero-margin" loading="lazy" width="800" height="600">
+              </picture>
+              <div class="exp-badge-pill">Togetherness</div>
+            </div>
+            <div class="exp-card-body">
+              <h3 class="exp-card-title">Sharing</h3>
+              <p class="exp-card-text">
+                Something delicious to bring to the table. An effortless favorite that delights visiting guests and family reunions.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3: Celebrations -->
+          <article class="exp-card">
+            <div class="exp-image-frame zero-margin">
+              <picture>
+                <source srcset="assets/exp_celebration.webp" type="image/webp">
+                <img src="assets/exp_celebration.jpg" alt="Festive Celebrations - luxury Indian gifting setup with Keovka" class="exp-img zero-margin" loading="lazy" width="800" height="600">
+              </picture>
+              <div class="exp-badge-pill">Festive Elegance</div>
+            </div>
+            <div class="exp-card-body">
+              <h3 class="exp-card-title">Celebrations</h3>
+              <p class="exp-card-text">
+                A thoughtful addition to special occasions. Perfect for Diwali, weddings, anniversaries, and corporate honors.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INGREDIENTS SECTION -->
+    <section class="ingredients-section" id="ingredients">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">PURITY & BALANCE</span>
+          <h2 class="section-title">Thoughtfully Selected Ingredients.</h2>
+          <p class="section-subtitle">
+            Every ingredient has a purpose — coming together to create the distinctive Keovka taste and experience.
+          </p>
+        </div>
+
+        <div class="ingredients-grid">
+          <!-- Ingredient 1: California Almonds -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_almonds.webp" type="image/webp">
+                <img src="assets/ing_almonds.jpg" alt="Roasted Golden Almonds" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Deep Nutty Base</span>
+              <h3 class="ingredient-name">Golden Almonds</h3>
+              <p class="ingredient-desc">
+                Slow-roasted to an amber gold to unlock warm toasted aromatics and a substantial, hearty crunch.
+              </p>
+            </div>
+          </div>
+
+          <!-- Ingredient 2: Dried Afghan Figs (Anjeer) -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_figs.webp" type="image/webp">
+                <img src="assets/ing_figs.jpg" alt="Plump Sun-Dried Afghan Figs" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Natural Sweetness</span>
+              <h3 class="ingredient-name">Sun-Dried Figs</h3>
+              <p class="ingredient-desc">
+                Succulent, chewy pieces bursting with jewel seeds that impart delicate honey and caramel notes.
+              </p>
+            </div>
+          </div>
+
+          <!-- Ingredient 3: Roasted Pistachios -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_pistachios.webp" type="image/webp">
+                <img src="assets/ing_pistachios.jpg" alt="Vibrant Green Roasted Pistachios" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Vibrant Crunch</span>
+              <h3 class="ingredient-name">Emerald Pistachios</h3>
+              <p class="ingredient-desc">
+                Selected for their vivid green color and distinct savory richness that enlivens every mouthful.
+              </p>
+            </div>
+          </div>
+
+          <!-- Ingredient 4: Whole Jumbo Cashews -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_cashews.webp" type="image/webp">
+                <img src="assets/ing_cashews.jpg" alt="Whole Buttery Jumbo Cashews" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Velvety Richness</span>
+              <h3 class="ingredient-name">Whole Cashews</h3>
+              <p class="ingredient-desc">
+                Creamy and buttery, gently toasted to melt smoothly and harmonise the bold textures of the mix.
+              </p>
+            </div>
+          </div>
+
+          <!-- Ingredient 5: Popped Lotus Seeds (Makhana as an ingredient) -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_lotus_seeds.webp" type="image/webp">
+                <img src="assets/ing_lotus_seeds.jpg" alt="Crisp Popped Lotus Seeds (Makhana)" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Airy Crisp Element</span>
+              <h3 class="ingredient-name">Popped Lotus Seeds</h3>
+              <p class="ingredient-desc">
+                Light, golden-crisp morsels that introduce an airy, delicate texture to balance the dense rich nuts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Ingredient 6: Tellicherry Pepper & Spices -->
+          <div class="ingredient-card">
+            <div class="ingredient-img-wrapper zero-margin">
+              <picture>
+                <source srcset="assets/ing_spices.webp" type="image/webp">
+                <img src="assets/ing_spices.jpg" alt="Aromatic Warming Indian Spices and Black Pepper" class="ingredient-img zero-margin" loading="lazy">
+              </picture>
+            </div>
+            <div class="ingredient-content">
+              <span class="ingredient-role">Aromatic Finish</span>
+              <h3 class="ingredient-name">Pepper & Warm Spices</h3>
+              <p class="ingredient-desc">
+                Crushed Tellicherry peppercorns and secret heritage spices that leave an elegant, warming resonance.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ingredients-footer-note text-center">
+          <p>
+            No artificial additives • No synthetic flavoring • Handcrafted in an FSSAI certified facility
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND STORY SECTION -->
+    <section class="brand-story-section" id="our-story">
+      <div class="container story-grid">
+        <!-- Story Visual (Zero Margin) -->
+        <div class="story-visual-col zero-margin">
+          <div class="story-image-card zero-margin">
+            <picture>
+              <source srcset="assets/story_lifestyle.webp" type="image/webp">
+              <img src="assets/story_lifestyle.jpg" alt="Keovka Lifestyle Setting with brass bowl and morning light" class="story-img zero-margin" loading="lazy" width="1024" height="768">
+            </picture>
+            <div class="story-accent-overlay">
+              <div class="story-seal">
+                <svg viewBox="0 0 24 24" fill="#B8955A" width="22" height="22">
+                  <path d="M12 2c.5 1.5 1.8 3.5 1.8 5.2a1.8 1.8 0 1 1-3.6 0c0-1.7 1.3-3.7 1.8-5.2z"/>
+                  <path d="M4 13.5C4 17.5 7.6 20.8 12 20.8s8-3.3 8-7.3c0-.8-.7-1.5-1.5-1.5H5.5C4.7 12 4 12.7 4 13.5z"/>
+                </svg>
+                <span>Pure Heritage</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Story Narrative -->
+        <div class="story-content-col">
+          <div class="story-content-inner">
+            <span class="label-pill">
+              <span class="pill-dot"></span>
+              <span class="pill-text">OUR STORY</span>
+            </span>
+
+            <h2 class="story-headline">Rooted in Familiar Flavours.<br><em>Reimagined for Today.</em></h2>
+
+            <p class="story-body">
+              Keovka brings together the comfort of familiar Indian flavours with a contemporary premium experience. From what goes inside to how it is presented, every detail is created to make ordinary moments feel a little more special.
+            </p>
+
+            <p class="story-body">
+              We grew up in homes where sharing dry fruits was an unspoken gesture of warmth, blessings, and celebration. Yet modern snacking had become either overly commercial or uninspired. Keovka was born out of a desire to bring elegance and intention back to the table — crafting a singular, balanced food indulgence worthy of modern homes.
+            </p>
+
+            <div class="story-signature-block">
+              <div class="signature-line">
+                <span class="sign-craft">Small-Batch Crafted with Integrity</span>
+                <span class="sign-location">New Delhi & Mumbai, India</span>
+              </div>
+            </div>
+
+            <div class="story-actions">
+              <a href="#product" class="btn btn-primary">Experience Keovka</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS SECTION -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">VERIFIED EXPERIENCES</span>
+          <h2 class="section-title">The Keovka Experience</h2>
+          <p class="section-subtitle">
+            Words from those who have brought Keovka into their homes and festive gatherings.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- Review 1: Neha Sharma (From jar label!) -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-pill">Verified Buyer</span>
+            </div>
+            <p class="review-quote">
+              “Delicious and premium! A true staple on our coffee table whenever guests drop by. The balance of chewy figs and slow-roasted nuts is unlike anything on the market.”
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">NS</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Neha Sharma</h4>
+                <span class="reviewer-location">New Delhi • 500g Jar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2: Rahul Gupta (From jar label!) -->
+          <div class="review-card featured-review">
+            <div class="review-card-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-pill">Verified Buyer</span>
+            </div>
+            <p class="review-quote">
+              “Perfect balance of flavors and satisfying crunch. The packaging is pure luxury — the glass jar and gold seal feel so thoughtful and substantial.”
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">RG</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Rahul Gupta</h4>
+                <span class="reviewer-location">Bengaluru • 500g Jar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3: Priya S. (From jar label!) -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-pill">Verified Buyer</span>
+            </div>
+            <p class="review-quote">
+              “A true taste of tradition reimagined. I gifted three jars to our family during Diwali and everyone was raving about how fresh and flavorful it tasted.”
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">PS</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Priya S.</h4>
+                <span class="reviewer-location">Mumbai • 500g Jar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA SECTION (Zero Margin Image Presentation) -->
+    <section class="final-cta-section">
+      <div class="container final-cta-container">
+        <!-- Content Column -->
+        <div class="final-cta-content">
+          <span class="label-pill">
+            <span class="pill-dot"></span>
+            <span class="pill-text">TIMELESS INDULGENCE</span>
+          </span>
+          <h2 class="final-cta-headline">Bring Something Special to the Table.</h2>
+          <p class="final-cta-text">
+            Discover Keovka and make your next snacking or gifting moment a little more memorable.
+          </p>
+          <div class="final-cta-btn-group">
+            <a href="#product" class="btn btn-primary btn-large">
+              <span>Shop Keovka</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <button type="button" class="btn btn-secondary btn-large" id="openCorporateGiftingBtn">
+              Corporate & Festive Inquiries
+            </button>
+          </div>
+          <div class="final-cta-meta">
+            <span>✓ Secure Checkout</span>
+            <span>•</span>
+            <span>✓ Direct Dispatch</span>
+            <span>•</span>
+            <span>✓ Freshness Guaranteed</span>
+          </div>
+        </div>
+
+        <!-- Product Image Beside Content (Zero Margin) -->
+        <div class="final-cta-visual zero-margin">
+          <div class="cta-image-wrapper zero-margin">
+            <picture>
+              <source srcset="assets/jar front.webp" type="image/webp">
+              <img src="assets/jar front.png" alt="Keovka Premium Jar for snacking and gifting" class="final-cta-img zero-margin" loading="lazy" width="600" height="450">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-container">
+      
+      <!-- Column 1: Brand & Bio -->
+      <div class="footer-col footer-brand-col">
+        <a href="#hero" class="brand-logo footer-logo">
+          <svg class="brand-diya-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2c.5 1.5 1.8 3.5 1.8 5.2a1.8 1.8 0 1 1-3.6 0c0-1.7 1.3-3.7 1.8-5.2z" fill="#B8955A" stroke="#B8955A"/>
+            <path d="M4 13.5C4 17.5 7.6 20.8 12 20.8s8-3.3 8-7.3c0-.8-.7-1.5-1.5-1.5H5.5C4.7 12 4 12.7 4 13.5z" />
+          </svg>
+          <span class="brand-name">KEOVKA</span>
+        </a>
+        <p class="footer-brand-text">
+          A premium packaged food product designed for modern snacking and gifting. Handcrafted in India with pure, choice ingredients.
+        </p>
+        <div class="footer-social-links">
+          <a href="https://instagram.com/kevkasnacks" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Follow Keovka on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://facebook.com/kevkasnacks" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Connect with Keovka on Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Watch Keovka on YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Navigation Links -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#why-keovka">Why Keovka</a></li>
+          <li><a href="#ingredients">Ingredients</a></li>
+          <li><a href="#our-story">Our Story</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Information & Policies -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Information</h4>
+        <ul class="footer-links-list">
+          <li><a href="#" class="policy-modal-trigger" data-policy="shipping">Shipping Policy</a></li>
+          <li><a href="#" class="policy-modal-trigger" data-policy="returns">Returns & Refunds</a></li>
+          <li><a href="#" class="policy-modal-trigger" data-policy="privacy">Privacy Policy</a></li>
+          <li><a href="#" class="policy-modal-trigger" data-policy="terms">Terms & Conditions</a></li>
+          <li><a href="#" class="policy-modal-trigger" data-policy="faq">Frequently Asked Questions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Newsletter & Concierge -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">The Keovka Table</h4>
+        <p class="footer-sub-text">
+          Receive seasonal batch announcements and curated tasting notes directly in your inbox.
+        </p>
+        <form class="footer-newsletter-form" id="newsletterForm">
+          <div class="newsletter-input-group">
+            <input type="email" placeholder="Enter your email address" required class="newsletter-input" aria-label="Email for newsletter">
+            <button type="submit" class="newsletter-submit-btn" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div class="footer-contact-direct">
+          <span>Concierge & Orders:</span>
+          <a href="mailto:hello@keovka.com" class="footer-email-link">hello@keovka.com</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer Copyright Bottom Strip -->
+    <div class="footer-bottom-strip">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">© 2026 Keovka. All rights reserved.</p>
+        <div class="footer-badges">
+          <span class="safe-badge">FSSAI Certified</span>
+          <span class="safe-badge">100% Secure 256-bit Checkout</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY QUICK BUY BOTTOM BAR -->
+  <div class="sticky-quick-bar" id="stickyQuickBar">
+    <div class="container sticky-bar-inner">
+      <div class="sticky-product-info">
+        <picture>
+          <source srcset="assets/jar_isolated_zero_margin.webp" type="image/webp">
+          <img src="assets/jar_isolated_zero_margin.png" alt="Keovka Mini Jar" class="sticky-jar-thumb zero-margin">
+        </picture>
+        <div class="sticky-text-meta">
+          <span class="sticky-name">KEOVKA Single Product</span>
+          <span class="sticky-price" id="stickyPriceText">₹899 (500g)</span>
+        </div>
+      </div>
+      <div class="sticky-actions">
+        <button type="button" class="btn btn-secondary btn-sticky-size" id="stickySizeToggleBtn">Size: 500g</button>
+        <button type="button" class="btn btn-primary btn-sticky-add" id="stickyAddBtn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOPPING CART SLIDE-OUT DRAWER -->
+  <div class="cart-drawer-overlay" id="cartOverlay" aria-hidden="true">
+    <div class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartDrawerTitle">
+      <div class="cart-drawer-header">
+        <div class="cart-header-title-group">
+          <h3 id="cartDrawerTitle">Your Bag</h3>
+          <span class="cart-header-count" id="cartHeaderCount">(0 items)</span>
+        </div>
+        <button type="button" class="cart-close-btn" id="cartCloseBtn" aria-label="Close Shopping Bag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- Free Shipping Progress Tracker -->
+      <div class="free-shipping-tracker">
+        <div class="tracker-message" id="shippingTrackerMessage">
+          Add <strong>₹300</strong> more to unlock <strong>Free Express Shipping!</strong>
+        </div>
+        <div class="tracker-bar">
+          <div class="tracker-fill" id="shippingTrackerFill" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items Body -->
+      <div class="cart-drawer-body" id="cartDrawerBody">
+        <!-- Dynamic items will be injected by script.js -->
+        <div class="empty-cart-state" id="emptyCartState">
+          <div class="empty-cart-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          </div>
+          <p class="empty-title">Your shopping bag is empty</p>
+          <p class="empty-sub">Discover the distinctive taste of Keovka today.</p>
+          <button type="button" class="btn btn-primary mt-3" id="emptyCartShopBtn">Start Shopping</button>
+        </div>
+
+        <div class="cart-items-list" id="cartItemsList"></div>
+      </div>
+
+      <!-- Cart Drawer Footer -->
+      <div class="cart-drawer-footer" id="cartDrawerFooter">
+        <!-- Coupon input toggle -->
+        <div class="coupon-section">
+          <div class="coupon-input-group">
+            <input type="text" id="couponCodeInput" placeholder="Discount code (e.g. WELCOME10)" class="coupon-input">
+            <button type="button" id="applyCouponBtn" class="btn-apply-coupon">Apply</button>
+          </div>
+          <span class="coupon-feedback" id="couponFeedback"></span>
+        </div>
+
+        <!-- Totals summary -->
+        <div class="cart-totals-summary">
+          <div class="summary-line">
+            <span>Subtotal</span>
+            <span id="cartSubtotalText">₹0</span>
+          </div>
+          <div class="summary-line discount-line" id="discountLine" style="display: none;">
+            <span>Discount (<span id="discountCodeName"></span>)</span>
+            <span id="cartDiscountText">−₹0</span>
+          </div>
+          <div class="summary-line">
+            <span>Express Delivery</span>
+            <span id="cartShippingText">FREE</span>
+          </div>
+          <div class="summary-line total-line">
+            <span>Total Amount</span>
+            <span id="cartTotalText">₹0</span>
+          </div>
+        </div>
+
+        <!-- Checkout Button -->
+        <button type="button" class="btn btn-primary btn-block btn-checkout" id="proceedCheckoutBtn">
+          <span>Proceed to Checkout</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+
+        <p class="cart-secure-note">
+          🔒 Secure 256-bit encrypted checkout with UPI, Cards & Netbanking
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHECKOUT MODAL (Seamless conversion mockup) -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop" aria-hidden="true">
+    <div class="modal-card checkout-modal-card" role="dialog" aria-modal="true" aria-labelledby="checkoutModalTitle">
+      <div class="modal-header">
+        <h3 id="checkoutModalTitle">Express Checkout</h3>
+        <button type="button" class="modal-close-btn" id="checkoutCloseBtn" aria-label="Close Checkout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="checkout-modal-body">
+        <form id="checkoutForm" class="checkout-form">
+          <div class="form-step-title">1. Shipping Details</div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="cName">Full Name *</label>
+              <input type="text" id="cName" required placeholder="e.g. Aditi Sharma" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="cPhone">Mobile Number *</label>
+              <input type="tel" id="cPhone" required placeholder="+91 98765 43210" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cEmail">Email Address *</label>
+            <input type="email" id="cEmail" required placeholder="aditi@example.com" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label for="cAddress">Delivery Address *</label>
+            <input type="text" id="cAddress" required placeholder="Apartment, Street address, Landmark" class="form-input">
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="cCity">City *</label>
+              <input type="text" id="cCity" required placeholder="e.g. Mumbai" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="cPincode">PIN Code *</label>
+              <input type="text" id="cPincode" required placeholder="400001" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-step-title mt-4">2. Select Payment Method</div>
+          <div class="payment-methods-grid">
+            <label class="payment-method-option active">
+              <input type="radio" name="paymentOption" value="upi" checked>
+              <div class="pay-method-content">
+                <span class="pay-method-name">UPI / QR Code</span>
+                <span class="pay-method-sub">Instant payment via GPay, PhonePe, Paytm</span>
+              </div>
+            </label>
+
+            <label class="payment-method-option">
+              <input type="radio" name="paymentOption" value="cards">
+              <div class="pay-method-content">
+                <span class="pay-method-name">Credit & Debit Cards</span>
+                <span class="pay-method-sub">Visa, Mastercard, RuPay, Amex</span>
+              </div>
+            </label>
+
+            <label class="payment-method-option">
+              <input type="radio" name="paymentOption" value="cod">
+              <div class="pay-method-content">
+                <span class="pay-method-name">Cash on Delivery</span>
+                <span class="pay-method-sub">Pay at your doorstep upon arrival</span>
+              </div>
+            </label>
+          </div>
+
+          <!-- Order Summary Inside Checkout -->
+          <div class="checkout-order-summary-box">
+            <div class="summary-item-header">
+              <span>Keovka Dry Fruit Mix (<span id="modalOrderSummaryQty">1</span> jar)</span>
+              <span id="modalOrderSummaryTotal">₹899</span>
+            </div>
+            <div class="summary-shipping-note">Free All-India Express Dispatch Included</div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-place-order" id="placeOrderSubmitBtn">
+            <span>Place Order • <span id="checkoutButtonPrice">₹899</span></span>
+          </button>
+        </form>
+
+        <!-- Order Success State -->
+        <div class="order-success-state" id="orderSuccessState" style="display: none;">
+          <div class="success-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#B8955A" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <h3 class="success-title">Order Confirmed!</h3>
+          <p class="success-msg">
+            Thank you, <strong id="successCustomerName">Aditi</strong>. Your handcrafted jar of Keovka is being carefully prepared for dispatch.
+          </p>
+          <div class="order-ref-card">
+            <span>Order Reference:</span>
+            <strong id="orderRefNumber">KV-2026-8492</strong>
+          </div>
+          <p class="success-help">A confirmation email & SMS tracking details have been sent.</p>
+          <button type="button" class="btn btn-secondary mt-3" id="closeSuccessBtn">Return to Store</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CORPORATE & FESTIVE GIFTING INQUIRY MODAL -->
+  <div class="modal-backdrop" id="giftingModalBackdrop" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="giftingModalTitle">
+      <div class="modal-header">
+        <h3 id="giftingModalTitle">Corporate & Festive Gifting</h3>
+        <button type="button" class="modal-close-btn" id="giftingCloseBtn" aria-label="Close Gifting Modal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-lead">
+          Elevate your corporate gifting, wedding favors, or festival orders with custom sleeves, branded seals, and curated batch allocations.
+        </p>
+        <form id="giftingInquiryForm" class="gifting-form">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="gName">Your Name *</label>
+              <input type="text" id="gName" required placeholder="Name" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="gCompany">Company / Occasion</label>
+              <input type="text" id="gCompany" placeholder="Company or Event" class="form-input">
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="gEmail">Email Address *</label>
+              <input type="email" id="gEmail" required placeholder="email@company.com" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="gPhone">Phone Number *</label>
+              <input type="tel" id="gPhone" required placeholder="+91 98765 43210" class="form-input">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="gQty">Estimated Quantity</label>
+            <select id="gQty" class="form-input">
+              <option value="25-50">25 – 50 Jars</option>
+              <option value="51-150">51 – 150 Jars</option>
+              <option value="150+">150+ Jars (Custom Bespoke Sleeves Available)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="gNotes">Special Requests / Timelines</label>
+            <textarea id="gNotes" rows="3" placeholder="Tell us about your event date or delivery destinations" class="form-input"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit Gifting Request</button>
+        </form>
+        <div id="giftingSuccessMsg" class="gifting-success-alert" style="display: none;">
+          Thank you! Our gifting concierge will get in touch with a customized quote and sample kit within 24 hours.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- POLICY INFORMATION MODAL -->
+  <div class="modal-backdrop" id="policyModalBackdrop" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="policyModalTitle">
+      <div class="modal-header">
+        <h3 id="policyModalTitle">Information</h3>
+        <button type="button" class="modal-close-btn" id="policyCloseBtn" aria-label="Close Information Modal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="modal-body policy-content" id="policyModalBody">
+        <!-- Content will be swapped dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- JavaScript Application -->
+  <script src="script.js"></script>
+</body>
+</html>
+
